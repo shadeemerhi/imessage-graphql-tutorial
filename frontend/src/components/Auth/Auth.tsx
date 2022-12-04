@@ -1,5 +1,13 @@
 import { useMutation } from "@apollo/client";
-import { Button, Center, Stack, Text, Image, Input } from "@chakra-ui/react";
+import {
+  Button,
+  Center,
+  Stack,
+  Text,
+  Image,
+  Input,
+  Flex,
+} from "@chakra-ui/react";
 import { Session } from "next-auth";
 import { signIn } from "next-auth/react";
 import { useState } from "react";
