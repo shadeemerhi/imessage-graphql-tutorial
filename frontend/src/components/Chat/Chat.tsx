@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import { Session } from "next-auth";
 import ConversationsWrapper from "./Conversations/ConversationsWrapper";
 import FeedWrapper from "./Feed/FeedWrapper";
